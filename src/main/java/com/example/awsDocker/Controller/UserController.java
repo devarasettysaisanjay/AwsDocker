@@ -8,6 +8,7 @@ public class UserController {
 	
 	@RequestMapping(value="/test")
 	public String test() {
+		System.out.println("hi");
 		return "Welcome to Docker Application";
 	}
 
