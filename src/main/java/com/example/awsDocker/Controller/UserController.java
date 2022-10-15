@@ -10,7 +10,5 @@ public class UserController {
 	public String test() {
 		return "Welcome to Docker Application";
 	}
-	
-	
 
 }
