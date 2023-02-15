@@ -29,7 +29,17 @@
 		</dependency>
 	</dependencies>
 	
-	
+	<distributionManagement>
+   <repository>
+      <id>nexus</id>
+      <url>http://23.23.18.98:8081/repository/AwsDockerRelease/</url>
+   </repository>
+
+<snapshotRepository>
+      <id>nexus</id>
+      <url>http://23.23.18.98:8081/repository/AwsDocker/</url>
+</snapshotRepository>
+</distributionManagement>
 
 	<build>
 		<plugins>
