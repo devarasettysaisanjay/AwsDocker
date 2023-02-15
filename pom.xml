@@ -29,17 +29,7 @@
 		</dependency>
 	</dependencies>
 	
-	<distributionManagement>
-   <repository>
-      <id>nexus</id>
-      <url>http://18.205.194.80:8081/repository/NexusJava/</url>
-   </repository>
-
-<snapshotRepository>
-      <id>nexus</id>
-      <url>http://18.205.194.80:8081/repository/NexusSnapShot/</url>
-</snapshotRepository>
-</distributionManagement>
+	
 
 	<build>
 		<plugins>
